@@ -1,9 +1,10 @@
 #!/bin/bash
 
+set -e
+
 # Generate the antlr4 parser
 # TODO
 
 # Compile program
-cd bin/
-mkdir bin/
-cmake .. && make -j$(nproc)
+cmake -B bin
+cmake --build bin
