@@ -67,55 +67,57 @@
 我们提供了所有 4.13.0 及之前的 antlr4 环境，安装在 `/usr/share/java/` 下。
 
 | 安装在 OJ 系统上的 Antlr4 环境 |
-| ----------------------------------------- |
-|`/usr/share/java/antlr-4.0-complete.jar`   |
-|`/usr/share/java/antlr-4.1-complete.jar`   |
-|`/usr/share/java/antlr-4.2-complete.jar`   |
-|`/usr/share/java/antlr-4.2.1-complete.jar` |
-|`/usr/share/java/antlr-4.2.2-complete.jar` |
-|`/usr/share/java/antlr-4.3-complete.jar`   |
-|`/usr/share/java/antlr-4.4-complete.jar`   |
-|`/usr/share/java/antlr-4.5-complete.jar`   |
-|`/usr/share/java/antlr-4.5.1-complete.jar` |
-|`/usr/share/java/antlr-4.5.2-complete.jar` |
-|`/usr/share/java/antlr-4.5.3-complete.jar` |
-|`/usr/share/java/antlr-4.6-complete.jar`   |
-|`/usr/share/java/antlr-4.7-complete.jar`   |
-|`/usr/share/java/antlr-4.7.1-complete.jar` |
-|`/usr/share/java/antlr-4.7.2-complete.jar` |
-|`/usr/share/java/antlr-4.8-complete.jar`   |
-|`/usr/share/java/antlr-4.9-complete.jar`   |
-|`/usr/share/java/antlr-4.9.1-complete.jar` |
-|`/usr/share/java/antlr-4.9.2-complete.jar` |
-|`/usr/share/java/antlr-4.9.3-complete.jar` |
-|`/usr/share/java/antlr-4.10-complete.jar`  |
-|`/usr/share/java/antlr-4.10.1-complete.jar`|
-|`/usr/share/java/antlr-4.11.0-complete.jar`|
-|`/usr/share/java/antlr-4.11.1-complete.jar`|
-|`/usr/share/java/antlr-4.12.0-complete.jar`|
-|`/usr/share/java/antlr-runtime-4.0.jar`    |
-|`/usr/share/java/antlr-runtime-4.1.jar`    |
-|`/usr/share/java/antlr-runtime-4.2.1.jar`  |
-|`/usr/share/java/antlr-runtime-4.2.2.jar`  |
-|`/usr/share/java/antlr-runtime-4.2.jar`    |
-|`/usr/share/java/antlr-runtime-4.3.jar`    |
-|`/usr/share/java/antlr-runtime-4.4.jar`    |
-|`/usr/share/java/antlr-runtime-4.5.1.jar`  |
-|`/usr/share/java/antlr-runtime-4.5.2.jar`  |
-|`/usr/share/java/antlr-runtime-4.5.3.jar`  |
-|`/usr/share/java/antlr-runtime-4.5.jar`    |
-|`/usr/share/java/antlr-runtime-4.6.jar`    |
-|`/usr/share/java/antlr-runtime-4.7.1.jar`  |
-|`/usr/share/java/antlr-runtime-4.7.2.jar`  |
-|`/usr/share/java/antlr-runtime-4.7.jar`    |
-|`/usr/share/java/antlr-runtime-4.8.jar`    |
-|`/usr/share/java/antlr-runtime-4.9.1.jar`  |
-|`/usr/share/java/antlr-runtime-4.9.2.jar`  |
-|`/usr/share/java/antlr-runtime-4.9.3.jar`  |
-|`/usr/share/java/antlr-runtime-4.9.jar`    |
-|`/usr/share/java/antlr-runtime-4.10.1.jar` |
-|`/usr/share/java/antlr-runtime-4.10.jar`   |
-|`/usr/share/java/antlr-runtime-4.11.0.jar` |
-|`/usr/share/java/antlr-runtime-4.11.1.jar` |
-|`/usr/share/java/antlr-runtime-4.12.0.jar` |
-|`/usr/share/java/antlr-runtime-4.13.0.jar` |
+| ---------------------------------------------------------------- |
+|`/usr/share/java/antlr-4.0-complete.jar`                          |
+|`/usr/share/java/antlr-4.1-complete.jar`                          |
+|`/usr/share/java/antlr-4.2-complete.jar`                          |
+|`/usr/share/java/antlr-4.2.1-complete.jar`                        |
+|`/usr/share/java/antlr-4.2.2-complete.jar`                        |
+|`/usr/share/java/antlr-4.3-complete.jar`                          |
+|`/usr/share/java/antlr-4.4-complete.jar`                          |
+|`/usr/share/java/antlr-4.5-complete.jar`                          |
+|`/usr/share/java/antlr-4.5.1-complete.jar`                        |
+|`/usr/share/java/antlr-4.5.2-complete.jar`                        |
+|`/usr/share/java/antlr-4.5.3-complete.jar`                        |
+|`/usr/share/java/antlr-4.6-complete.jar`                          |
+|`/usr/share/java/antlr-4.7-complete.jar`                          |
+|`/usr/share/java/antlr-4.7.1-complete.jar`                        |
+|`/usr/share/java/antlr-4.7.2-complete.jar`                        |
+|`/usr/share/java/antlr-4.8-complete.jar`                          |
+|`/usr/share/java/antlr-4.9-complete.jar`                          |
+|`/usr/share/java/antlr-4.9.1-complete.jar`                        |
+|`/usr/share/java/antlr-4.9.2-complete.jar`                        |
+|`/usr/share/java/antlr-4.9.3-complete.jar`                        |
+|`/usr/share/java/antlr-4.10-complete.jar`                         |
+|`/usr/share/java/antlr-4.10.1-complete.jar`                       |
+|`/usr/share/java/antlr-4.11.0-complete.jar`                       |
+|`/usr/share/java/antlr-4.11.1-complete.jar`                       |
+|`/usr/share/java/antlr-4.12.0-complete.jar`                       |
+|`/usr/share/java/antlr-4.13.0-complete.jar`                       |
+|`/usr/share/java/antlr-complete.jar -> antlr-4.13.0-complete.jar` |
+|`/usr/share/java/antlr-runtime-4.0.jar`                           |
+|`/usr/share/java/antlr-runtime-4.1.jar`                           |
+|`/usr/share/java/antlr-runtime-4.2.1.jar`                         |
+|`/usr/share/java/antlr-runtime-4.2.2.jar`                         |
+|`/usr/share/java/antlr-runtime-4.2.jar`                           |
+|`/usr/share/java/antlr-runtime-4.3.jar`                           |
+|`/usr/share/java/antlr-runtime-4.4.jar`                           |
+|`/usr/share/java/antlr-runtime-4.5.1.jar`                         |
+|`/usr/share/java/antlr-runtime-4.5.2.jar`                         |
+|`/usr/share/java/antlr-runtime-4.5.3.jar`                         |
+|`/usr/share/java/antlr-runtime-4.5.jar`                           |
+|`/usr/share/java/antlr-runtime-4.6.jar`                           |
+|`/usr/share/java/antlr-runtime-4.7.1.jar`                         |
+|`/usr/share/java/antlr-runtime-4.7.2.jar`                         |
+|`/usr/share/java/antlr-runtime-4.7.jar`                           |
+|`/usr/share/java/antlr-runtime-4.8.jar`                           |
+|`/usr/share/java/antlr-runtime-4.9.1.jar`                         |
+|`/usr/share/java/antlr-runtime-4.9.2.jar`                         |
+|`/usr/share/java/antlr-runtime-4.9.3.jar`                         |
+|`/usr/share/java/antlr-runtime-4.9.jar`                           |
+|`/usr/share/java/antlr-runtime-4.10.1.jar`                        |
+|`/usr/share/java/antlr-runtime-4.10.jar`                          |
+|`/usr/share/java/antlr-runtime-4.11.0.jar`                        |
+|`/usr/share/java/antlr-runtime-4.11.1.jar`                        |
+|`/usr/share/java/antlr-runtime-4.12.0.jar`                        |
+|`/usr/share/java/antlr-runtime-4.13.0.jar`                        |
