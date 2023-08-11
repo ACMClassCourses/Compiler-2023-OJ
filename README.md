@@ -27,7 +27,7 @@
 **请注意：`bin/` 目录将会被单独打包并执行，因此 `bin/` 目录下的所有内容都不能依赖除 `bin/` 目录自身以外的项目资源。**
 **特别是不可以使用软链接将项目其他位置的文件连接到 `bin/` 下。**
 
-你的程序需要支持以下命令行参数：
+你的程序需要支持以下命令行参数：（具体要求见 [1.2. 执行](#12-运行)）
 - 仅检查语法（标准输入作为程序）
   ```sh
   ./mxc -fsyntax-only
@@ -37,7 +37,7 @@
   ./mxc -S
   ```
 
-### 1.2. 运行
+### 1.2. 执行
 
 - 仅语法检查
   OJ 会以以下命令运行你的编译器：
@@ -58,11 +58,13 @@
 
 - [CMake 项目提交](cmake/)：用 CMake 建构的项目
 - [纯 Java 项目](java/)：不需要在建构时生成 Java 代码的项目（项目中已经包含了 antlr4 生成的 Java 代码）
-- [Java + G4 项目](java-g4/)：需要在建构时生成 Java 代码的项目（项目中不包含 antlr4 生成的 Java 代码）
+- [Java + g4 项目](java-g4/)：需要在建构时生成 Java 代码的项目（项目中不包含 antlr4 生成的 Java 代码）
 
 ## 3. 运行环境
 
-### 3.1 Antlr4 环境
+### 3.1. Antlr4 环境
+
+#### 3.1.1. Antlr4 Java
 
 我们提供了所有 4.13.0 及之前的 antlr4 环境，安装在 `/usr/share/java/` 下。
 
@@ -121,3 +123,11 @@
 |`/usr/share/java/antlr-runtime-4.11.1.jar`                        |
 |`/usr/share/java/antlr-runtime-4.12.0.jar`                        |
 |`/usr/share/java/antlr-runtime-4.13.0.jar`                        |
+
+#### 3.1.2. Antlr4 C++ 环境
+
+我们安装了 Arch Linux 下的 [extra/antlr4-runtime 包](https://archlinux.org/packages/extra/x86_64/antlr4-runtime/)。
+
+#### 3.1.3. Antlr4 Python 环境
+
+我们安装了 Arch Linux 下的 [extra/python-antlr4 包](https://archlinux.org/packages/extra/any/python-antlr4/)。

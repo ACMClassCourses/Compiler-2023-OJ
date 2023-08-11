@@ -1,6 +1,6 @@
 # CMake 项目提交
 
-需要注意的是，应当使用 configure，不要使用 Makefile（见[configure 说明](#configure)）。
+需要注意的是，应当使用 configure，不要使用 Makefile（见 [configure 说明](#configure)）。
 
 ## `configure`
 
@@ -8,6 +8,8 @@
 
 注意不要在项目根目录中执行 `cmake .`，因为这样会产生一个 `Makefile`。如果有这个
 `Makefile`，OJ 会在下一步执行 `make`。
+
+具体参见 [`configure` 文件](configure)。
 
 ## 依赖项
 
