@@ -10,7 +10,7 @@ all: Compiler
 
 .PHONY: Compiler
 Compiler: $(JAVA_SRC) antlr-parser
-	javac -d bin $(JAVA_SRC) -cp $(ANTLR_JAR)
+	javac -d bin $(JAVA_SRC) -cp $(ANTLR_JAR) -encoding UTF-8
 
 # replace the antlr4 command with your own
 .PHONY: antlr-parser

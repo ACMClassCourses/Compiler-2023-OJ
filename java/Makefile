@@ -8,7 +8,7 @@ all: Compiler
 
 .PHONY: Compiler
 Compiler: $(JAVA_SRC)
-	javac -d bin $(JAVA_SRC) -cp $(ANTLR_JAR)
+	javac -d bin $(JAVA_SRC) -cp $(ANTLR_JAR) -encoding UTF-8
 
 .PHONY: clean
 clean:
