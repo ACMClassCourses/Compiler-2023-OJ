@@ -51,7 +51,8 @@
   ./mxc -S
   ```
 
-  你的编译器输出将会作为 `output.s` 连同你的编译器的内建功能对应汇编 `builtin.s` 一起被
+  你的编译器 stdout 输出将会作为 `output.s` 连同你的编译器的内建功能对应汇编
+  `builtin.s`（请在编译期放到 `bin/builtin.s` 中，如果没放到此处，则认为没有 `builtin.s`）一起被
   ravel 模拟运行。
 
 ## 2. 模板
